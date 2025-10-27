@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  mcp-server:
+    build:
+      context: .
+      dockerfile: src/mcpServer/Dockerfile
+      platforms:
+        - linux/arm64
+    container_name: mcp-server
+    ports:
+      - '8000:8000'
+    environment:
+      # Bind to 0.0.0.0 in Docker to allow container-to-container communication
+      # (In local development, it binds to 127.0.0.1 for security)
+      - HOST=0.0.0.0
+      - PORT=8000
+    networks:
+      - agent-network
+    volumes:
+      # Mount data directory to persist data
+      - ./data:/app/data
+    healthcheck:
+      test: ['CMD', 'wget', '-q', '--spider', 'http://127.0.0.1:8000/health']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  car-sales-agent:
+    build:
+      context: .
+      dockerfile: src/carSalesAgent/Dockerfile
+      platforms:
+        - linux/arm64
+    container_name: car-sales-agent
+    ports:
+      - '8080:8080'
+    environment:
+      # Configure MCP server URL to use container name
+      - MCP_SERVER_URL=http://mcp-server:8000
+    env_file:
+      # Load other environment variables from .env file
+      - .env
+    networks:
+      - agent-network
+    depends_on:
+      mcp-server:
+        condition: service_healthy
+    restart: unless-stopped
+
+networks:
+  agent-network:
+    driver: bridge
