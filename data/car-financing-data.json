@@ -1,0 +1,898 @@
+[
+  {
+    "applicationId": "44444333",
+    "submissionDate": "2024-10-10",
+    "customer": {
+      "creditScore": 700,
+      "annualIncomeZar": 70000,
+      "downPaymentZar": 5000,
+      "tradeInValueZar": 5000,
+      "debtToIncomeRatio": 0.3,
+      "applicantLocation": "CA-90001"
+    },
+    "vehicle": {
+      "make": "Tesla",
+      "model": "Model 3",
+      "year": 2024,
+      "msrpZar": 45000,
+      "salePriceZar": 43000,
+      "mileage": 0,
+      "condition": "New"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 33000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.045,
+      "lenderId": "BANK-003"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444333",
+    "submissionDate": "2024-10-10",
+    "customer": {
+      "creditScore": 700,
+      "annualIncomeZar": 70000,
+      "downPaymentZar": 5000,
+      "tradeInValueZar": 5000,
+      "debtToIncomeRatio": 0.3,
+      "applicantLocation": "CA-90001"
+    },
+    "vehicle": {
+      "make": "Ford",
+      "model": "Ranger",
+      "year": 2024,
+      "msrpZar": 145000,
+      "salePriceZar": 843000,
+      "mileage": 10000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 33000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.045,
+      "lenderId": "BANK-003"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444334",
+    "submissionDate": "2024-09-21",
+    "customer": {
+      "creditScore": 782,
+      "annualIncomeZar": 950000,
+      "downPaymentZar": 120000,
+      "tradeInValueZar": 80000,
+      "debtToIncomeRatio": 0.22,
+      "applicantLocation": "ZA-2196"
+    },
+    "vehicle": {
+      "make": "Haval",
+      "model": "Jolion",
+      "year": 2023,
+      "msrpZar": 360000,
+      "salePriceZar": 348000,
+      "mileage": 12000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 148000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.089,
+      "lenderId": "BANK-002"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444335",
+    "submissionDate": "2024-11-03",
+    "customer": {
+      "creditScore": 615,
+      "annualIncomeZar": 420000,
+      "downPaymentZar": 35000,
+      "tradeInValueZar": 0,
+      "debtToIncomeRatio": 0.38,
+      "applicantLocation": "ZA-8001"
+    },
+    "vehicle": {
+      "make": "Ford",
+      "model": "Fiesta",
+      "year": 2018,
+      "msrpZar": 210000,
+      "salePriceZar": 175000,
+      "mileage": 89000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 140000,
+      "termLengthMonths": 48,
+      "annualPercentageRate": 0.119,
+      "lenderId": "BANK-001"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444336",
+    "submissionDate": "2024-12-12",
+    "customer": {
+      "creditScore": 828,
+      "annualIncomeZar": 1650000,
+      "downPaymentZar": 250000,
+      "tradeInValueZar": 150000,
+      "debtToIncomeRatio": 0.18,
+      "applicantLocation": "ZA-2000"
+    },
+    "vehicle": {
+      "make": "Audi",
+      "model": "Q5",
+      "year": 2024,
+      "msrpZar": 995000,
+      "salePriceZar": 975000,
+      "mileage": 0,
+      "condition": "New"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 575000,
+      "termLengthMonths": 72,
+      "annualPercentageRate": 0.069,
+      "lenderId": "BANK-004"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444337",
+    "submissionDate": "2024-08-17",
+    "customer": {
+      "creditScore": 701,
+      "annualIncomeZar": 720000,
+      "downPaymentZar": 60000,
+      "tradeInValueZar": 20000,
+      "debtToIncomeRatio": 0.29,
+      "applicantLocation": "ZA-4001"
+    },
+    "vehicle": {
+      "make": "Fiat",
+      "model": "500",
+      "year": 2021,
+      "msrpZar": 310000,
+      "salePriceZar": 285000,
+      "mileage": 24000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 205000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.099,
+      "lenderId": "BANK-002"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444338",
+    "submissionDate": "2025-01-05",
+    "customer": {
+      "creditScore": 668,
+      "annualIncomeZar": 580000,
+      "downPaymentZar": 70000,
+      "tradeInValueZar": 30000,
+      "debtToIncomeRatio": 0.34,
+      "applicantLocation": "ZA-9301"
+    },
+    "vehicle": {
+      "make": "Opel",
+      "model": "Astra",
+      "year": 2020,
+      "msrpZar": 350000,
+      "salePriceZar": 295000,
+      "mileage": 54000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 195000,
+      "termLengthMonths": 48,
+      "annualPercentageRate": 0.109,
+      "lenderId": "BANK-003"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444339",
+    "submissionDate": "2024-07-29",
+    "customer": {
+      "creditScore": 572,
+      "annualIncomeZar": 360000,
+      "downPaymentZar": 20000,
+      "tradeInValueZar": 10000,
+      "debtToIncomeRatio": 0.41,
+      "applicantLocation": "ZA-6001"
+    },
+    "vehicle": {
+      "make": "Isuzu",
+      "model": "D-Max",
+      "year": 2019,
+      "msrpZar": 620000,
+      "salePriceZar": 495000,
+      "mileage": 125000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 465000,
+      "termLengthMonths": 72,
+      "annualPercentageRate": 0.129,
+      "lenderId": "BANK-006"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444340",
+    "submissionDate": "2024-10-28",
+    "customer": {
+      "creditScore": 799,
+      "annualIncomeZar": 1320000,
+      "downPaymentZar": 180000,
+      "tradeInValueZar": 90000,
+      "debtToIncomeRatio": 0.21,
+      "applicantLocation": "ZA-2196"
+    },
+    "vehicle": {
+      "make": "Lexus",
+      "model": "RX 350",
+      "year": 2024,
+      "msrpZar": 1450000,
+      "salePriceZar": 1420000,
+      "mileage": 0,
+      "condition": "New"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 1150000,
+      "termLengthMonths": 72,
+      "annualPercentageRate": 0.075,
+      "lenderId": "BANK-005"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444341",
+    "submissionDate": "2024-09-02",
+    "customer": {
+      "creditScore": 744,
+      "annualIncomeZar": 820000,
+      "downPaymentZar": 90000,
+      "tradeInValueZar": 65000,
+      "debtToIncomeRatio": 0.26,
+      "applicantLocation": "ZA-8001"
+    },
+    "vehicle": {
+      "make": "Haval",
+      "model": "H6",
+      "year": 2022,
+      "msrpZar": 520000,
+      "salePriceZar": 498000,
+      "mileage": 18000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 343000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.089,
+      "lenderId": "BANK-004"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444342",
+    "submissionDate": "2024-11-14",
+    "customer": {
+      "creditScore": 691,
+      "annualIncomeZar": 690000,
+      "downPaymentZar": 75000,
+      "tradeInValueZar": 20000,
+      "debtToIncomeRatio": 0.32,
+      "applicantLocation": "ZA-2000"
+    },
+    "vehicle": {
+      "make": "Ford",
+      "model": "Everest",
+      "year": 2023,
+      "msrpZar": 1180000,
+      "salePriceZar": 1125000,
+      "mileage": 9000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 930000,
+      "termLengthMonths": 72,
+      "annualPercentageRate": 0.102,
+      "lenderId": "BANK-003"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444343",
+    "submissionDate": "2024-08-05",
+    "customer": {
+      "creditScore": 559,
+      "annualIncomeZar": 300000,
+      "downPaymentZar": 15000,
+      "tradeInValueZar": 5000,
+      "debtToIncomeRatio": 0.48,
+      "applicantLocation": "ZA-4001"
+    },
+    "vehicle": {
+      "make": "Audi",
+      "model": "A3",
+      "year": 2017,
+      "msrpZar": 490000,
+      "salePriceZar": 265000,
+      "mileage": 138000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 245000,
+      "termLengthMonths": 48,
+      "annualPercentageRate": 0.135,
+      "lenderId": "BANK-006"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444344",
+    "submissionDate": "2024-12-01",
+    "customer": {
+      "creditScore": 812,
+      "annualIncomeZar": 2100000,
+      "downPaymentZar": 320000,
+      "tradeInValueZar": 180000,
+      "debtToIncomeRatio": 0.17,
+      "applicantLocation": "ZA-2196"
+    },
+    "vehicle": {
+      "make": "Lexus",
+      "model": "IS 300",
+      "year": 2024,
+      "msrpZar": 980000,
+      "salePriceZar": 955000,
+      "mileage": 0,
+      "condition": "New"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 455000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.064,
+      "lenderId": "BANK-002"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444345",
+    "submissionDate": "2025-01-09",
+    "customer": {
+      "creditScore": 736,
+      "annualIncomeZar": 980000,
+      "downPaymentZar": 110000,
+      "tradeInValueZar": 95000,
+      "debtToIncomeRatio": 0.27,
+      "applicantLocation": "ZA-6001"
+    },
+    "vehicle": {
+      "make": "Opel",
+      "model": "Corsa",
+      "year": 2022,
+      "msrpZar": 290000,
+      "salePriceZar": 275000,
+      "mileage": 16000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 70000,
+      "termLengthMonths": 36,
+      "annualPercentageRate": 0.089,
+      "lenderId": "BANK-001"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444346",
+    "submissionDate": "2024-09-25",
+    "customer": {
+      "creditScore": 604,
+      "annualIncomeZar": 510000,
+      "downPaymentZar": 45000,
+      "tradeInValueZar": 20000,
+      "debtToIncomeRatio": 0.36,
+      "applicantLocation": "ZA-9301"
+    },
+    "vehicle": {
+      "make": "Fiat",
+      "model": "Tipo",
+      "year": 2021,
+      "msrpZar": 350000,
+      "salePriceZar": 310000,
+      "mileage": 45000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 245000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.112,
+      "lenderId": "BANK-004"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444347",
+    "submissionDate": "2024-10-15",
+    "customer": {
+      "creditScore": 669,
+      "annualIncomeZar": 730000,
+      "downPaymentZar": 85000,
+      "tradeInValueZar": 30000,
+      "debtToIncomeRatio": 0.31,
+      "applicantLocation": "ZA-2000"
+    },
+    "vehicle": {
+      "make": "Haval",
+      "model": "Jolion",
+      "year": 2024,
+      "msrpZar": 375000,
+      "salePriceZar": 365000,
+      "mileage": 0,
+      "condition": "New"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 250000,
+      "termLengthMonths": 48,
+      "annualPercentageRate": 0.092,
+      "lenderId": "BANK-003"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444348",
+    "submissionDate": "2024-11-28",
+    "customer": {
+      "creditScore": 583,
+      "annualIncomeZar": 420000,
+      "downPaymentZar": 30000,
+      "tradeInValueZar": 15000,
+      "debtToIncomeRatio": 0.44,
+      "applicantLocation": "ZA-8001"
+    },
+    "vehicle": {
+      "make": "Ford",
+      "model": "Ranger",
+      "year": 2016,
+      "msrpZar": 650000,
+      "salePriceZar": 355000,
+      "mileage": 165000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 310000,
+      "termLengthMonths": 48,
+      "annualPercentageRate": 0.139,
+      "lenderId": "BANK-006"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444349",
+    "submissionDate": "2024-10-07",
+    "customer": {
+      "creditScore": 755,
+      "annualIncomeZar": 1250000,
+      "downPaymentZar": 210000,
+      "tradeInValueZar": 120000,
+      "debtToIncomeRatio": 0.23,
+      "applicantLocation": "ZA-2196"
+    },
+    "vehicle": {
+      "make": "Audi",
+      "model": "A4",
+      "year": 2023,
+      "msrpZar": 740000,
+      "salePriceZar": 715000,
+      "mileage": 8000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 385000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.079,
+      "lenderId": "BANK-005"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444350",
+    "submissionDate": "2024-07-11",
+    "customer": {
+      "creditScore": 533,
+      "annualIncomeZar": 280000,
+      "downPaymentZar": 12000,
+      "tradeInValueZar": 0,
+      "debtToIncomeRatio": 0.52,
+      "applicantLocation": "ZA-9301"
+    },
+    "vehicle": {
+      "make": "Opel",
+      "model": "Corsa",
+      "year": 2015,
+      "msrpZar": 220000,
+      "salePriceZar": 110000,
+      "mileage": 178000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 98000,
+      "termLengthMonths": 36,
+      "annualPercentageRate": 0.149,
+      "lenderId": "BANK-001"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444351",
+    "submissionDate": "2024-12-20",
+    "customer": {
+      "creditScore": 809,
+      "annualIncomeZar": 1750000,
+      "downPaymentZar": 260000,
+      "tradeInValueZar": 140000,
+      "debtToIncomeRatio": 0.19,
+      "applicantLocation": "ZA-2000"
+    },
+    "vehicle": {
+      "make": "Lexus",
+      "model": "NX 300",
+      "year": 2024,
+      "msrpZar": 1120000,
+      "salePriceZar": 1090000,
+      "mileage": 0,
+      "condition": "New"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 690000,
+      "termLengthMonths": 72,
+      "annualPercentageRate": 0.071,
+      "lenderId": "BANK-004"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444352",
+    "submissionDate": "2024-09-10",
+    "customer": {
+      "creditScore": 646,
+      "annualIncomeZar": 600000,
+      "downPaymentZar": 65000,
+      "tradeInValueZar": 20000,
+      "debtToIncomeRatio": 0.35,
+      "applicantLocation": "ZA-6001"
+    },
+    "vehicle": {
+      "make": "Isuzu",
+      "model": "D-Max",
+      "year": 2022,
+      "msrpZar": 780000,
+      "salePriceZar": 740000,
+      "mileage": 22000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 655000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.108,
+      "lenderId": "BANK-003"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444353",
+    "submissionDate": "2024-08-22",
+    "customer": {
+      "creditScore": 721,
+      "annualIncomeZar": 880000,
+      "downPaymentZar": 95000,
+      "tradeInValueZar": 50000,
+      "debtToIncomeRatio": 0.28,
+      "applicantLocation": "ZA-8001"
+    },
+    "vehicle": {
+      "make": "Audi",
+      "model": "Q5",
+      "year": 2021,
+      "msrpZar": 920000,
+      "salePriceZar": 845000,
+      "mileage": 34000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 700000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.084,
+      "lenderId": "BANK-002"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444354",
+    "submissionDate": "2024-07-19",
+    "customer": {
+      "creditScore": 607,
+      "annualIncomeZar": 520000,
+      "downPaymentZar": 30000,
+      "tradeInValueZar": 15000,
+      "debtToIncomeRatio": 0.39,
+      "applicantLocation": "ZA-9301"
+    },
+    "vehicle": {
+      "make": "Fiat",
+      "model": "500",
+      "year": 2019,
+      "msrpZar": 270000,
+      "salePriceZar": 190000,
+      "mileage": 76000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 150000,
+      "termLengthMonths": 48,
+      "annualPercentageRate": 0.122,
+      "lenderId": "BANK-006"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444355",
+    "submissionDate": "2024-10-19",
+    "customer": {
+      "creditScore": 793,
+      "annualIncomeZar": 1420000,
+      "downPaymentZar": 220000,
+      "tradeInValueZar": 90000,
+      "debtToIncomeRatio": 0.22,
+      "applicantLocation": "ZA-2196"
+    },
+    "vehicle": {
+      "make": "Ford",
+      "model": "Ranger",
+      "year": 2024,
+      "msrpZar": 980000,
+      "salePriceZar": 960000,
+      "mileage": 0,
+      "condition": "New"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 650000,
+      "termLengthMonths": 72,
+      "annualPercentageRate": 0.074,
+      "lenderId": "BANK-005"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444356",
+    "submissionDate": "2024-11-07",
+    "customer": {
+      "creditScore": 552,
+      "annualIncomeZar": 340000,
+      "downPaymentZar": 18000,
+      "tradeInValueZar": 0,
+      "debtToIncomeRatio": 0.49,
+      "applicantLocation": "ZA-6001"
+    },
+    "vehicle": {
+      "make": "Opel",
+      "model": "Astra",
+      "year": 2016,
+      "msrpZar": 260000,
+      "salePriceZar": 145000,
+      "mileage": 155000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 130000,
+      "termLengthMonths": 36,
+      "annualPercentageRate": 0.146,
+      "lenderId": "BANK-001"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444357",
+    "submissionDate": "2024-12-03",
+    "customer": {
+      "creditScore": 777,
+      "annualIncomeZar": 1100000,
+      "downPaymentZar": 160000,
+      "tradeInValueZar": 80000,
+      "debtToIncomeRatio": 0.24,
+      "applicantLocation": "ZA-2000"
+    },
+    "vehicle": {
+      "make": "Haval",
+      "model": "H6",
+      "year": 2024,
+      "msrpZar": 540000,
+      "salePriceZar": 535000,
+      "mileage": 0,
+      "condition": "New"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 295000,
+      "termLengthMonths": 48,
+      "annualPercentageRate": 0.083,
+      "lenderId": "BANK-004"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444358",
+    "submissionDate": "2024-08-28",
+    "customer": {
+      "creditScore": 664,
+      "annualIncomeZar": 650000,
+      "downPaymentZar": 70000,
+      "tradeInValueZar": 25000,
+      "debtToIncomeRatio": 0.33,
+      "applicantLocation": "ZA-8001"
+    },
+    "vehicle": {
+      "make": "Audi",
+      "model": "A3",
+      "year": 2020,
+      "msrpZar": 520000,
+      "salePriceZar": 435000,
+      "mileage": 41000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 340000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.101,
+      "lenderId": "BANK-002"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444359",
+    "submissionDate": "2024-07-23",
+    "customer": {
+      "creditScore": 589,
+      "annualIncomeZar": 480000,
+      "downPaymentZar": 25000,
+      "tradeInValueZar": 10000,
+      "debtToIncomeRatio": 0.43,
+      "applicantLocation": "ZA-9301"
+    },
+    "vehicle": {
+      "make": "Fiat",
+      "model": "Tipo",
+      "year": 2018,
+      "msrpZar": 300000,
+      "salePriceZar": 185000,
+      "mileage": 99000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 160000,
+      "termLengthMonths": 48,
+      "annualPercentageRate": 0.131,
+      "lenderId": "BANK-006"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444360",
+    "submissionDate": "2024-10-02",
+    "customer": {
+      "creditScore": 741,
+      "annualIncomeZar": 900000,
+      "downPaymentZar": 120000,
+      "tradeInValueZar": 70000,
+      "debtToIncomeRatio": 0.25,
+      "applicantLocation": "ZA-2196"
+    },
+    "vehicle": {
+      "make": "Isuzu",
+      "model": "D-Max",
+      "year": 2023,
+      "msrpZar": 820000,
+      "salePriceZar": 790000,
+      "mileage": 12000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 600000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.094,
+      "lenderId": "BANK-003"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444361",
+    "submissionDate": "2024-11-19",
+    "customer": {
+      "creditScore": 806,
+      "annualIncomeZar": 1600000,
+      "downPaymentZar": 280000,
+      "tradeInValueZar": 200000,
+      "debtToIncomeRatio": 0.18,
+      "applicantLocation": "ZA-2000"
+    },
+    "vehicle": {
+      "make": "Lexus",
+      "model": "RX 350",
+      "year": 2022,
+      "msrpZar": 1380000,
+      "salePriceZar": 1280000,
+      "mileage": 21000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 800000,
+      "termLengthMonths": 72,
+      "annualPercentageRate": 0.078,
+      "lenderId": "BANK-005"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444362",
+    "submissionDate": "2024-08-11",
+    "customer": {
+      "creditScore": 612,
+      "annualIncomeZar": 550000,
+      "downPaymentZar": 60000,
+      "tradeInValueZar": 25000,
+      "debtToIncomeRatio": 0.37,
+      "applicantLocation": "ZA-4001"
+    },
+    "vehicle": {
+      "make": "Opel",
+      "model": "Corsa",
+      "year": 2019,
+      "msrpZar": 250000,
+      "salePriceZar": 190000,
+      "mileage": 83000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 130000,
+      "termLengthMonths": 48,
+      "annualPercentageRate": 0.118,
+      "lenderId": "BANK-001"
+    },
+    "outcome": "SUCCESS"
+  },
+  {
+    "applicationId": "44444363",
+    "submissionDate": "2024-09-07",
+    "customer": {
+      "creditScore": 734,
+      "annualIncomeZar": 980000,
+      "downPaymentZar": 140000,
+      "tradeInValueZar": 60000,
+      "debtToIncomeRatio": 0.27,
+      "applicantLocation": "ZA-8001"
+    },
+    "vehicle": {
+      "make": "Audi",
+      "model": "A4",
+      "year": 2020,
+      "msrpZar": 690000,
+      "salePriceZar": 560000,
+      "mileage": 52000,
+      "condition": "Secondhand"
+    },
+    "financing": {
+      "loanAmountRequestedZar": 360000,
+      "termLengthMonths": 60,
+      "annualPercentageRate": 0.096,
+      "lenderId": "BANK-004"
+    },
+    "outcome": "SUCCESS"
+  }
+]
