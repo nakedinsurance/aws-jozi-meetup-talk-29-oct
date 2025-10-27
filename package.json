@@ -1,0 +1,48 @@
+{
+  "name": "agent-core-meetup-talk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nakedinsurance/aws-jozi-meetup-talk-29-oct.git",
+  "author": "Amo Moloko <amomoloko@naked.insure>",
+  "license": "MIT",
+  "scripts": {
+    "start:agent": "tsx watch --env-file=.env src/carSalesAgent/main.ts",
+    "start:mcp": "tsx watch src/mcpServer/main.ts",
+    "test:mcp": "tsx src/mcpServer/test-client.ts",
+    "test:agentcore": "tsx src/test/index.ts",
+    "diagnose:agentcore": "tsx src/test/diagnose.ts",
+    "inspect:mcp": "npx @modelcontextprotocol/inspector",
+    "build": "tsc",
+    "start:prod": "node dist/carSalesAgent/main.js",
+    "docker:build": "docker build --platform linux/arm64 -f src/carSalesAgent/Dockerfile -t car-sales-agent:latest .",
+    "docker:run": "docker run --platform linux/arm64 -p 8080:8080 --env-file .env car-sales-agent:latest",
+    "docker:build:mcp": "docker build --platform linux/arm64 -f src/mcpServer/Dockerfile -t mcp-server:latest .",
+    "docker:run:mcp": "docker run --platform linux/arm64 -p 8000:8000 mcp-server:latest",
+    "docker:up": "docker-compose up --build",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "docker:restart": "docker-compose restart"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-agentcore": "^3.913.0",
+    "@aws-sdk/client-cloudwatch-logs": "^3.911.0",
+    "@aws-sdk/hash-node": "^3.374.0",
+    "@aws-sdk/protocol-http": "^3.374.0",
+    "@aws-sdk/signature-v4": "^3.374.0",
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@openai/agents": "^0.1.9",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "winston": "^3.18.3",
+    "winston-cloudwatch": "^6.3.0",
+    "zod": "^3.25.40"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.7.2"
+  }
+}
